@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/rootLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/pageTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/playfairdisplay_semibold"
+                android:paddingBottom="@dimen/_18sdp"
+                android:text="@string/finish_your_registration"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_semibold"
+                android:text="@string/enter_your_name"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_10ssp" />
+
+
+            <!-- First Name -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/firstNameET"
+                style="@style/CustomTextInputEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:background="@drawable/form_et_2"
+                android:hint="@string/first_name"
+                android:padding="12dp"
+                android:textSize="@dimen/_12ssp" />
+
+            <!-- Last Name -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/lastNameET"
+                style="@style/CustomTextInputEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/form_et_2"
+                android:hint="@string/last_name"
+                android:padding="12dp"
+                android:textSize="@dimen/_12ssp" />
+
+            <!-- Religion Beliefs-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvReligionlabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_semibold"
+                android:text="@string/enter_your_religion_beliefs"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_10ssp" />
+
+            <!-- Religion -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/religionSpinnerTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/form_et_1"
+                android:drawableEnd="@drawable/baseline_arrow_drop_down_24"
+                android:fontFamily="@font/merriweathersans_medium"
+                android:padding="12dp"
+                android:text="@string/religion_txt"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_12ssp" />
+
+            <!-- MobileNo -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUserMobileEmailLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_semibold"
+                android:text="@string/please_provide_us_your_mobile_no_and_email_id"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_11ssp" />
+
+            <!-- Mobile or Email ID -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/mobileOrEmailET"
+                style="@style/CustomTextInputEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/form_et_1"
+                android:hint="@string/enter_a_valid_mobile_no_email_id"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textSize="@dimen/_12ssp" />
+
+            <!-- Create password -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvUserPasswordLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweathersans_semibold"
+                android:text="@string/create_a_password"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_10ssp" />
+
+            <!-- Password label -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/passwordET"
+                style="@style/CustomTextInputEditText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:drawableEnd="@drawable/ic_eye_off"
+                android:background="@drawable/form_et_1"
+                android:hint="@string/enter_a_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textSize="@dimen/_12ssp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- Start Browsing Button -->
+        <!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+        <!--            android:id="@+id/startBrowsingBtnLL"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="@dimen/_10sdp"-->
+        <!--            android:layout_weight="0.2"-->
+        <!--            android:background="@drawable/button_spl_bg"-->
+        <!--            android:gravity="center"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <androidx.appcompat.widget.AppCompatButton-->
+        <!--                android:id="@+id/startBrowsingBtn"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@android:color/transparent"-->
+        <!--                android:padding="@dimen/_8sdp"-->
+        <!--                android:text="@string/start_browsing_profile"-->
+        <!--                android:textAllCaps="false"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="@dimen/_16ssp" />-->
+
+        <!--            <androidx.appcompat.widget.AppCompatImageView-->
+        <!--                android:id="@+id/arrowIcon"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:padding="@dimen/_10sdp"-->
+        <!--                android:src="@drawable/baseline_arrow_forward_24"-->
+        <!--                android:tint="@color/black" />-->
+        <!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startBrowsingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button_spl_bg"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/start_browsing_profile"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

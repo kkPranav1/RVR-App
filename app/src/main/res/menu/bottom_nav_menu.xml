@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:checked="true"
+        android:color="@color/green_2"
+        android:enabled="true"
+        android:icon="@drawable/home_icon_1"
+        android:title="@string/home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_matches"
+        android:color="@color/green_2"
+        android:icon="@drawable/matches_heart_icon_1"
+        android:title="@string/matches"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_all_chats"
+        android:color="@color/green_2"
+        android:icon="@drawable/chat_icon_1"
+        android:title="@string/all_chats"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_my_account"
+        android:color="@color/green_2"
+        android:icon="@drawable/my_account_icon_1"
+        android:title="@string/Account"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

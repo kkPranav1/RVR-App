@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maindashboard_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.matrimony.rvrmatrimony.uicode.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="com.matrimony.rvrmatrimony.uicode.matches.MatchesFragment"
+        android:label="@string/matches"
+        tools:layout="@layout/fragment_matches"/>
+
+    <fragment
+        android:id="@+id/allChatsFragment"
+        android:name="com.matrimony.rvrmatrimony.uicode.allchats.AllChatsFragment"
+        android:label="@string/all_chats"
+        tools:layout="@layout/fragment_all_chats"/>
+
+    <fragment
+        android:id="@+id/myAccountFragment"
+        android:name="com.matrimony.rvrmatrimony.uicode.myaccountandplans.MyAccountFragment"
+        android:label="@string/Account"
+        tools:layout="@layout/fragment_my_account"/>
+
+
+
+
+
+</navigation>

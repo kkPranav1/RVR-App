@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/step1dialogCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/whatTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/playfairdisplay_bold"
+            android:text="@string/lets_get_started"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCreateFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:text="@string/create_a_matrimony_profile_for"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/whatTV" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/createForSpinnerTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/form_et_1"
+            android:drawableEnd="@drawable/ic_dropdown_s"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:padding="@dimen/_9sdp"
+            android:text="@string/select"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCreateFor" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:text="@string/specify_sex"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/createForSpinnerTv" />
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:checked="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/male_man"
+            android:textColor="@color/green"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toStartOf="@id/radio_female"
+            app:layout_constraintStart_toStartOf="@id/tvSex"
+            app:layout_constraintTop_toBottomOf="@id/tvSex" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:checked="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/female_woman"
+            android:textColor="@color/green"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toEndOf="@id/createForSpinnerTv"
+            app:layout_constraintStart_toEndOf="@id/radio_male"
+            app:layout_constraintTop_toBottomOf="@id/tvSex" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvImInterestedIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/playfairdisplay_medium"
+            android:text="@string/i_am_interested_in_profiles_of"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/radio_female" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvInterestSwitch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:background="@color/orange_white"
+            android:fontFamily="@font/merriweathersans_extrabold"
+            android:padding="@dimen/_4sdp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvImInterestedIn"
+            tools:text="Men" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:text="@string/aged"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="@id/ageFromET"
+            app:layout_constraintEnd_toStartOf="@id/ageFromET"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ageFromET" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ageFromET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/form_et_1"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:hint="@string/enter_age"
+            android:inputType="number"
+            android:padding="@dimen/_9sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toStartOf="@id/tvAgeTo"
+            app:layout_constraintStart_toEndOf="@id/tvAged"
+            app:layout_constraintTop_toBottomOf="@id/tvInterestSwitch" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAgeTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:text="@string/to"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="@id/ageFromET"
+            app:layout_constraintEnd_toStartOf="@id/ageToET"
+            app:layout_constraintStart_toEndOf="@id/ageFromET"
+            app:layout_constraintTop_toTopOf="@id/ageFromET" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ageToET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:background="@drawable/form_et_1"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:hint="@string/enter_age"
+            android:inputType="number"
+            android:padding="@dimen/_9sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="@id/ageFromET"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvAgeTo"
+            app:layout_constraintTop_toTopOf="@id/ageFromET" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:background="@drawable/ca_button_selector_1"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:text="@string/proceed"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ageFromET" />
+
+        <View
+            android:id="@+id/spacerView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/proceedButton" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

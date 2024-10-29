@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainContentCL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/titleLogoIV"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:src="@drawable/big_line_logo_rbg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ViewFlipper
+            android:id="@+id/weddingImageFlipperVF"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:autoStart="true"
+            android:flipInterval="2750"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            app:layout_constraintBottom_toTopOf="@id/tagTitleTV"
+            app:layout_constraintEnd_toEndOf="@id/titleLogoIV"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/titleLogoIV"
+            app:layout_constraintTop_toBottomOf="@id/titleLogoIV"
+            app:layout_constraintVertical_bias="0.2">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/weddingIV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carousel_wp_2_rbg" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/weddingIV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carousel_wp_1_rbg_1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/weddingIV3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/carousel_wp_3_rbg" />
+
+        </ViewFlipper>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tagTitleTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_9sdp"
+            android:fontFamily="@font/playfairdisplay_black"
+            android:text="@string/crafting_matches_defining_love"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_17ssp"
+            app:layout_constraintBottom_toTopOf="@id/regTitleTV"
+            app:layout_constraintEnd_toEndOf="@id/regTitleTV"
+            app:layout_constraintStart_toStartOf="@id/regTitleTV" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/regTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:text="@string/join_us_to_discover_your_perfect_match_today"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toTopOf="@id/createAccButton"
+            app:layout_constraintEnd_toEndOf="@id/createAccButton"
+            app:layout_constraintStart_toStartOf="@id/createAccButton" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createAccButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/ca_button_selector_1"
+            android:backgroundTint="@null"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:text="@string/register_with_us"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toTopOf="@id/tcInfoTV"
+            app:layout_constraintEnd_toEndOf="@id/memTitleTV"
+            app:layout_constraintStart_toStartOf="@id/memTitleTV" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tcInfoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:lines="2"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/i_agree_to_the_tc"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toTopOf="@id/memTitleTV"
+            app:layout_constraintEnd_toEndOf="@id/createAccButton"
+            app:layout_constraintStart_toStartOf="@id/createAccButton"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/memTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:fontFamily="@font/merriweathersans_medium"
+            android:text="@string/already_a_member"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toTopOf="@id/loginButton"
+            app:layout_constraintEnd_toEndOf="@id/loginButton"
+            app:layout_constraintStart_toStartOf="@id/loginButton" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/login_button_selector"
+            android:backgroundTint="@null"
+            android:fontFamily="@font/merriweathersans_semibold"
+            android:text="@string/login_btn_txt"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

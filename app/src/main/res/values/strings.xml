@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">RVR Matrimony</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="create_account_btn_txt">Create Account</string>
+    <string name="user_id_hint">User ID</string>
+    <string name="password_txt_h">Password</string>
+    <string name="don_t_have_an_account_register_msg">Don\'t have an account? Register</string>
+    <string name="register_with_us_msg_txt">Register with us!</string>
+    <string name="enter_you_full_name_hint">Enter your Full Name</string>
+    <string name="enter_email_id_hint">Enter your email-id</string>
+    <string name="confirm_password_txt_h">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="profile_sub_text">Your perfect partner is a few clicks away!</string>
+
+    <!--Bottom navigation Texts -->
+    <string name="home">Home</string>
+    <string name="matches">Matches</string>
+    <string name="plans">Plans</string>
+    <string name="chat">Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="download_share_biodata"><![CDATA[Download & Share Biodata]]></string>
+    <string name="all_matches_4_856">All Matches (4,856)</string>
+    <string name="free_member">Free Member</string>
+    <string name="madhuri">Madhuri</string>
+    <string name="user_name">User Name</string>
+
+    <!--Terms and Conditions Content -->
+    <string name="terms_conditions_content"> RVRLuxury Matrimony - Terms and Conditions
+
+
+1. Introduction
+
+Welcome to RVRLuxury Matrimony. By accessing or using our services, you agree to be bound by these Terms and Conditions. Please read them carefully.
+2. Service Description
+
+RVRLuxury Matrimony provides a premium matchmaking service designed to facilitate meaningful connections for individuals seeking serious relationships.
+3. User Eligibility
+
+Users must be at least 18 years old to use our services.
+Users must provide accurate and truthful information during registration and throughout their use of the service.
+4. Registration and Account Security
+
+Users are required to create an account to access our services.
+You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.
+Notify us immediately of any unauthorized use of your account.
+5. User Obligations
+
+Users must use the service in a respectful manner and comply with all applicable laws and regulations.
+Misrepresentation of identity or intentions is prohibited.
+Users must respect the privacy and confidentiality of other users.
+6. Service Fees
+
+Details of subscription fees or one-time payments for accessing premium features will be provided on our website.
+Fees are non-refundable unless explicitly stated otherwise.
+7. Content and Communication
+
+Users are responsible for the content they post, including profiles, messages, and other communications.
+We reserve the right to monitor, review, and remove any content that violates these terms or is deemed inappropriate.
+8. Privacy Policy
+
+Your privacy is important to us. Our Privacy Policy outlines how we collect, use, and protect your personal information. By using our services, you agree to the terms of our Privacy Policy.
+9. Termination of Service
+
+We reserve the right to suspend or terminate user accounts at our discretion, including in cases of suspected fraud, abuse, or violation of these terms.
+10. Limitation of Liability
+
+RVRLuxury Matrimony is not liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our services.
+We do not guarantee the accuracy of user profiles or the success of any matches made through our service.
+11. Changes to Terms
+
+We may update these Terms and Conditions from time to time. Users will be notified of any significant changes, and continued use of the service constitutes acceptance of the updated terms.
+12. Governing Law
+
+These Terms and Conditions are governed by and construed in accordance with the laws of Andhra Pradesh India. Any disputes will be subject to the exclusive jurisdiction of the courts in Andhra Pradesh India.
+13. Contact Information
+
+For any questions or concerns regarding these Terms and Conditions, please contact us at [Contact Information].</string>
+
+    <string name="terms_and_conditions">Terms and Conditions</string>
+
+
+    <!--Undefined texts -->
+    <string name="wanted_text">wanted text</string>
+    <string name="unwanted_text">unwanted text</string>
+    <string name="here_goes_the_long_terms_and_conditions_text">Here goes the long terms and conditions text...</string>
+    <string name="free_membership">Free Membership</string>
+    <string name="paid_membership">Paid Membership</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="e_mail_id">E-mail ID</string>
+    <string name="password">Password</string>
+    <string name="i_agree_to_the_terms_conditions"><![CDATA[I agree to the Terms & Conditions]]></string>
+    <string name="register_txt">Register</string>
+    <string name="name">Name</string>
+    <string name="enter_religion">Enter Religion</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="select_date_of_birth">Select Date of Birth</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="gender">Gender</string>
+    <string name="male_txt">Male</string>
+    <string name="female_txt">Female</string>
+    <string name="religion">Religion</string>
+
+    <string name="already_a_member">Already a member?</string>
+    <string name="register_with_us">Register with us</string>
+    <string name="join_us_to_discover_your_perfect_match_today">Join Us to Discover Your Perfect Match Today!</string>
+    <string name="crafting_matches_defining_love">Crafting Matches, Defining Love</string>
+
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="default_web_client_id">default web client ID</string>
+    <string name="i_agree_to_the_tc">By clicking on \'Register with us\' I agree to the terms and conditions (Read them here)</string>
+    <string name="tell_us_what_you_are_looking_for">Tell us what you are looking for</string>
+    <string name="username">Username</string>
+    <string name="registered_email_id_mobile">Registered Email ID/Mobile</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_sign_in_using">Or sign-in using</string>
+    <string name="google_sign_in">Google Sign-In</string>
+    <string name="make_sure_you_use_a_verified_email">Make sure you use a verified email</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="please_enter_your_email_id_or_phone_number_to_which_we_will_send_a_recovery_link">Please enter your email ID or phone number to which we will send a recovery link.</string>
+    <string name="registered_email_mobile">Registered Email / Mobile</string>
+    <string name="send_link">Send Link</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="create_a_matrimony_profile_for">Create a Matrimony Profile for:</string>
+    <string name="specify_sex">Specify Sex:</string>
+    <string name="female_woman">Female (Woman)</string>
+    <string name="male_man">Male (Man)</string>
+    <string name="lets_get_started">Lets Get Started</string>
+    <string name="aged">Aged:</string>
+    <string name="to">To</string>
+    <string name="proceed">Proceed</string>
+    <string name="i_am_interested_in_profiles_of">I am Interested in profiles of:</string>
+    <string name="enter_age">Enter Age</string>
+    <!--km o6 commit-->
+    <string name="finish_your_registration">Please finish your Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="religion_txt">Religion</string>
+    <string name="enter_a_valid_mobile_no_email_id">Enter a valid Mobile no/Email ID</string>
+    <string name="enter_a_password">Enter a Password</string>
+    <string name="start_browsing_profile">Start Browsing Profiles</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_religion_beliefs">Specify Your Religion Beliefs</string>
+    <string name="please_provide_us_your_mobile_no_and_email_id">Please provide us either your mobile Number or Email-ID to be used as a Username</string>
+    <string name="create_a_password">Create a Password</string>
+    <string name="default_verify_you_email_id_mobile">Verify you Email Id / Mobile Number</string>
+    <string name="validate_and_proceed">Validate and Proceed</string>
+    <string name="mock_resend_timer">Resend Otp in (2:29)s</string>
+    <string name="entered_otp_is_incorrect">Entered OTP is Incorrect!!</string>
+
+    <string name="pricing">PRICING</string>
+    <string name="get_started_npick_your_plan_now">Get Started\nPick your Plan Now</string>
+    <string name="find_your_best_life_partner_with_us">Find Your Best Life Partner with us.</string>
+    <string name="silver">SILVER</string>
+    <string name="get_started_with_us">Get Started With Us</string>
+    <string name="get_started">Get Started</string>
+    <string name="_2499">₹ 2499</string>
+    <string name="validity_3_months">● Validity: 3 Months</string>
+    <string name="free_user_profile_can_view">● Free user profile can view</string>
+    <string name="view_contact_details">● View contact details</string>
+    <string name="_25_profiles_visible">● 25 Profiles Visible</string>
+    <string name="gold">GOLD</string>
+    <string name="get_more_benefits">Get More Benefits</string>
+    <string name="_4999">₹ 4999</string>
+    <string name="validity_6_months">● Validity: 6 Months</string>
+    <string name="more_user_profiles_visible">● More user profiles visible</string>
+    <string name="view_more_contact_details">● View more contact details</string>
+    <string name="_50_profiles_visible">● 50 Profiles Visible</string>
+    <string name="platinum">PLATINUM</string>
+    <string name="get_the_best_benefits">Get the Best Benefits</string>
+    <string name="_9999">₹ 9999</string>
+    <string name="validity_1_year">● Validity: 1 Year</string>
+    <string name="all_user_profiles_visible">● All user profiles visible</string>
+    <string name="view_all_contact_details">● View all contact details</string>
+    <string name="unlimited_profiles_visible">● Unlimited Profiles Visible</string>
+    <!--km o6 commit-->
+
+    <string name="welcome_to_home">Welcome to Home</string>
+    <string name="welcome_to_chat">Welcome to Chat</string>
+    <string name="welcome_to_premium_page">Welcome to Premium Page</string>
+    <string name="welcome_to_matches">Welcome to Matches</string>
+    <string name="all_chats">Chats</string>
+    <string name="Account">Account\n</string>
+
+
+</resources>

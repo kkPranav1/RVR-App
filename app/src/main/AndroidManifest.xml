@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:name=".application.RVRMatrimonyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RVRMatrimony"
+        tools:targetApi="31" >
+        <activity
+            android:name=".uicode.paymentgateways.GuidePaymentActivity"
+            android:configChanges="uiMode"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.preferences.AddPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.home.NotificationsActivity"
+            android:configChanges="uiMode"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.myaccountandplans.SubscriptionActivity"
+            android:configChanges="uiMode"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.onboarding.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.onboarding.RegisterStep2Activity"
+            android:configChanges="uiMode"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.onboarding.LoginAppActivity"
+            android:configChanges="uiMode"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".MainDashBoardActivity"
+            android:configChanges="uiMode"
+            android:exported="true" />
+        <activity
+            android:name=".uicode.onboarding.LoginAccountActivity"
+            android:configChanges="uiMode"
+            android:exported="false" />
+        <activity
+            android:name=".uicode.onboarding.TestScreenActivity"
+            android:configChanges="uiMode"
+            android:exported="true" />
+    </application>
+
+</manifest>

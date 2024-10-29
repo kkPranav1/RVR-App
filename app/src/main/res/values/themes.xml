@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RVRMatrimony" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lite_yellow</item>
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/main_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--    <style name="CustomTextInputLayout1" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+    <!--        <item name="boxStrokeColor">@color/green_2</item>-->
+    <!--        <item name="hintTextColor">@color/green_2</item>-->
+    <!--    </style>-->
+
+    <!--    Widget.Material3.TextInputEditText.FilledBox-->
+    <style name="CustomTextInputEditText1" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/editTextBackground2</item>
+        <item name="android:backgroundTint">@color/splash_bg</item>
+        <item name="fontFamily">@font/merriweathersans_medium</item>
+    </style>
+
+</resources>

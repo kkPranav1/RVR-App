@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+
+    <color name="splash_bg">#f7f7f7</color>
+    <color name="main_green">#2DAA62</color>
+    <color name="main_yellow">#d6ba3b</color>
+    <color name="green">#294814</color>
+    <color name="green_2">#4fd976</color>
+    <color name="yellow">#FF9800</color>
+    <color name="yellow_2">#e2e98f</color>
+    <color name="lite_white">#CCCCCC</color>
+    <color name="lite_yellow">#FFA726</color>
+    <color name="white_color">#f2f2f2</color>
+    <color name="yellow_tint_color">#FFA726</color>
+
+    <color name="grey">#D3D3D3</color>
+    <color name="orange_white">#fff3e0</color>
+    <color name="orange_2">#ffb733</color>
+
+    <!--    <color name="background_color_et1">#2C2C2C</color> &lt;!&ndash; Light blue &ndash;&gt;-->
+    <!--    <color name="stroke_color_fy">#FFFFE0</color> &lt;!&ndash; Faint yellow &ndash;&gt;-->
+
+    <color name="background_color_et1">#2C2C2C</color> <!-- Dark gray (for dark mode) -->
+    <color name="stroke_color_fy">#FFFFE0</color> <!-- Faint yellow (unchanged) -->
+
+    <color name="editTextBackground2">#4A8B3A</color> <!-- Light mode -->
+
+    <color name="error_red">#B71C1C</color>
+
+
+</resources>

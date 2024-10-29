@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused state -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/editTextBackground2" /> <!-- Background color -->
+            <stroke android:width="@dimen/_1sdp" android:color="@color/stroke_color_fy" /> <!-- Stroke color -->
+            <corners android:radius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <!-- Default (unfocused) state -->
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="@color/editTextBackground2" /> <!-- Background color -->
+            <corners android:radius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/editTextBackground2" /> <!-- Background color -->
+            <corners android:radius="@dimen/_12sdp" />
+        </shape>
+    </item>
+</selector>
